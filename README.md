@@ -3,7 +3,7 @@ The Bloxorz Toolkit is a game template for Roblox that allows you to quickly cre
 
 Included in this repository are the necessary scripts and sample code snippets which may be used to create a Bloxorz-inspired game.
 
-The Roblox game associated with this project can be found [here](https://www.roblox.com/games/14268535014/Bloxorz-Toolkit-Uncopylocked). It contains the same scripts along with a proper workspace map components. Copying the game is highly recommended instead of copying the scripts in this repository.
+The Roblox game associated with this project can be found [here](https://www.roblox.com/games/14268535014/Bloxorz-Toolkit-Uncopylocked). It contains the same scripts along with proper workspace map components. Copying the game is highly recommended instead of copying the scripts in this repository.
 
 You are free to modify this code in any way and use it in your own games or projects.
 ## Usage
