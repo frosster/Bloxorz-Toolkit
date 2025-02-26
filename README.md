@@ -14,7 +14,7 @@ In order for a part to have an collisions/effects on the player, it must be loca
 Here is a reference list for all currently relevant tile types:
 - **Bridge:** This can be toggled by switches, and can either be a part or a model containing parts. To toggle it, refer to SwitchLight and SwitchHeavy. It does not need to be named Bridge.
 	- If you would like a bridge part to have the opposite state as normal, add a BoolValue under it named "Reverse".
-- **CameraModifier:** Stepping on this tile changes the current camera positioning. Refer to the module ReplicatedStorage -> Modules -> CameraController for camera type information.
+- **CameraModifier:** Stepping on this tile changes the current camera positioning. Refer to the module `ReplicatedStorage -> Modules -> CameraController` for camera type information.
 	- The optional StringValue named NewType changes the camera's movement behaviour. This can be "Follow", "Static", or "Pan".
 	- The optional CFrameValue named NewCFrame changes where the camera is positioned or how it is offset.
 - **Checkpoint:** Blocks that step on a checkpoint will respawn on it after falling.
