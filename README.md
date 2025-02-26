@@ -1,16 +1,19 @@
 # Bloxorz-Toolkit
 The Bloxorz Toolkit is a game template for Roblox that allows you to quickly create your own game with mechanics based off of Bloxorz, an Adobe Flash game released in 2007.
+
 Included in this repository are the necessary scripts and sample code snippets which may be used to create a Bloxorz-inspired game.
+
 The Roblox game associated with this project can be found [here](https://www.roblox.com/games/14268535014/Bloxorz-Toolkit-Uncopylocked). It contains the same scripts along with a proper workspace map components. Copying the game is highly recommended instead of copying the scripts in this repository.
+
 You are free to modify this code in any way and use it in your own games or projects.
 ## Usage
-In order for a part to have an collisions/effects on the player, it must be located in the `Workspace -> Course` folder.
-Any parts outside of this folder will not be included in collision checks with blocks.
+In order for a part to have an collisions/effects on the player, it must be located in the `Workspace -> Course` folder. Any parts outside of this folder will not be included in collision checks with blocks.
 
 If you're familiar with scripting, you can add your own tiles with unique behaviour. See below.
 
 **Creating a new tile type:**
 The script that handles what happens when each tile type is stepped on is located at `ReplicatedStorage -> Modules -> TileBehaviour`.
+
 To add the behaviour for your own tile type, add a function in the `TILE_FUNCTIONS` dictionary, with the new tile type's name as the key.
 A tile type's respective function contains these parameters in order:
 \[The tile part that was stepped on, the block part that stepped on the tile, the Block module instance associated with the block part]
