@@ -1,4 +1,4 @@
-# Bloxorz-Toolkit
+# Bloxorz Toolkit
 The Bloxorz Toolkit is a game template for Roblox that allows you to quickly create your own game with mechanics based off of Bloxorz, an Adobe Flash game released in 2007.
 
 Included in this repository are the necessary scripts and sample code snippets which may be used to create a Bloxorz-inspired game.
